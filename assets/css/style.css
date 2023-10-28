@@ -1,0 +1,63 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+#container .article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 350px;
+  box-shadow: 0 0 4px;
+  border: 1px solid black;
+  margin: 1rem;
+  background-color: rgb(190, 222, 235);
+  border-radius: 10px;
+}
+#container .article h3,
+#container .article h4 {
+  margin-top: 1rem;
+  font-size: 150%;
+}
+#container .article .job {
+  font-weight: 400;
+}
+#container .article p {
+  margin-top: 1rem;
+  font-size: 20px;
+  color: blue;
+  padding: 0 2rem;
+}
+#container .article .profile {
+  width: 128px;
+  height: 150px;
+  margin-top: 2rem;
+  border-radius: 50%;
+  box-shadow: 5px -2px 4px 5px gold;
+}
+#container .arrows {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+  gap: 20px;
+}
+#container .arrows img {
+  width: 25px;
+}
+
+.show {
+  display: none !important;
+}/*# sourceMappingURL=style.css.map */
